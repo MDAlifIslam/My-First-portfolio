@@ -16,8 +16,9 @@ h1 {
     width: 80%;
     
 }
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 150px;
 }
 .work-profile {
     text-decoration: none;
@@ -37,4 +38,31 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position-x: right;
+}
+.bottom-header {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.bottom header div {
+}
+#Babydoll {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, red);
+    border-image-slice: 1;
+}
+#Full-stack {
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(orange , tomato);
+    border-image-slice: 1;
+
+}
+#My-experience {
+    box-shadow: 5px 7px 5px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 20%;
+    border-radius: 5px;
+    
 }
