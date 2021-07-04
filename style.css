@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+}
+.orange-text {
+    color: orange;
+}
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
+.half-width img {
+    width: 80%;
+    
+}
+section {
+    display: flex;
+}
+.work-profile {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 800;
+
+}
+.top-header {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.mid-header {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
